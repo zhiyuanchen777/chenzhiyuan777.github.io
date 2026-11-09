@@ -786,22 +786,6 @@ const honorRecords: Award[] = [
     awardingOrganization: "Hubei Provincial Committee of the Communist Youth LeagueHubei Students' Federation Secretariat",
   },
   {
-    titleEn: "Top Ten Charming Students",
-    // by cgpt: State the approved university-wide recipient count without ratio ambiguity.
-    titleZh: "“十大魅力学子”（全校10人）",
-    recipients: "Zhiyuan Chen / 陈志远",
-    date: "2019-05",
-    awardingOrganization: "Wuhan University of Science and Technology",
-  },
-  {
-    titleEn: "Outstanding 3D Association President",
-    // by cgpt: Preserve the role and state the university-wide recipient count.
-    titleZh: "担任学校3D协会会长，并获评优秀会长（全校10人）",
-    recipients: "Zhiyuan Chen / 陈志远",
-    date: "2017-05",
-    awardingOrganization: "Wuhan University of Science and Technology",
-  },
-  {
     titleEn: "Tsinghua University Three-Star Volunteer",
     titleZh: "清华大学三星级志愿者",
     recipients: "Zhiyuan Chen / 陈志远",
