@@ -64,7 +64,7 @@ export const competitionDisplayRecords: AwardDisplayRecord[] = [...competitionAw
 
 // by cgpt: The supplied Three-Star Volunteer certificate is dated May 2024.
 const sortedHonorDisplayRecords: AwardDisplayRecord[] = selectedHonors
-  .filter((award) => !award.titleZh.includes("第777期"))
+  .filter((award) => !award.titleZh.includes("第777期") && award.titleZh !== "清华大学博士生实践金奖支队（队长，全校10支）")
   .map((award) => award.titleZh === "清华大学三星级志愿者"
     ? { ...award, date: "2024-05" }
     : { ...award })

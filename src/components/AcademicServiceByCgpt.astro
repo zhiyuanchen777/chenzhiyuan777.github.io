@@ -1,7 +1,8 @@
 ---
-// by cgpt: Render teaching and social practice with the shared Work Experience timeline.
+// by cgpt: Render teaching, social practice, and reviewing with the shared Experience & Service timeline.
 import OrganizationName from "./OrganizationName.astro";
 import InlineTextByCgpt from "./InlineTextByCgpt.astro";
+import { BookOpen } from "lucide-astro";
 
 // by cgpt: Dates are author-provided; emphasize the two honors without raw HTML.
 interface ServiceEntry {
@@ -48,3 +49,13 @@ const entries: ServiceEntry[] = [
     </article>
   );
 })}
+
+<article class="timeline-item timeline-item--reviewer" data-service-by-cgpt="reviewer">
+  <div>
+    <h3 class="timeline-organization">
+      <BookOpen size={20} strokeWidth={1.7} aria-hidden="true" />
+      <span>Academic Reviewing</span>
+    </h3>
+    <p><InlineTextByCgpt text="ICRA, IEEE TIM, AEI, among others." /></p>
+  </div>
+</article>

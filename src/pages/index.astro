@@ -13,7 +13,7 @@ import { CornerDownRight } from "lucide-astro";
 // by cgpt: Verified sections live separately from the shared profile source.
 import PatentsSectionByCgpt from "../components/PatentsSectionByCgpt.astro";
 import AwardsSectionByCgpt from "../components/AwardsSectionByCgpt.astro";
-// by cgpt: Keep the approved service notes inside Work Experience without a new section.
+// by cgpt: Keep the approved service notes inside Experience & Service without a new section.
 import AcademicServiceByCgpt from "../components/AcademicServiceByCgpt.astro";
 import {
   news,
@@ -69,9 +69,12 @@ const personSchema = {
         <p class="intro-lead">
           I am a robotics researcher at <strong><OrganizationName name="Xiaomi Robotics" size={22} /></strong>. I received my Ph.D. in Mechanical Engineering from <strong><OrganizationName name="Tsinghua University" size={22} /></strong> in 2025.
         </p>
-        <!-- by cgpt: End the approved research paragraph with the present-tense reviewer sentence. -->
+        <!-- by cgpt: Keep the research summary broad enough to cover embodied intelligence and general-purpose robot learning. -->
         <p>
-          My research focuses on <strong>embodied intelligence and generalizable robotic manipulation</strong>, spanning <strong>precision, contact-rich, and dexterous manipulation</strong>. I am particularly interested in <strong>visuo-tactile learning, vision-language-action models, and world-action models</strong>, leveraging multimodal perception and human demonstrations to enable robust real-world robotic skills. I serve as a reviewer for ICRA, IEEE TIM, and AEI, among others.
+          My research focuses on <strong>embodied intelligence and generalizable robotic manipulation</strong>, spanning <strong>precision, contact-rich, and dexterous manipulation</strong>. I am particularly interested in <strong>visuo-tactile learning, vision-language-action models, and world-action models</strong>, leveraging multimodal perception and human demonstrations to enable robust real-world robotic skills.
+        </p>
+        <p>
+          Starting from real-world robotic tasks, I aim to identify and address scientific and engineering challenges shared across applications. My research output includes <strong>20+ papers and patent applications</strong> in total.
         </p>
 
         <div id="-news" class="news-block" aria-labelledby="news-title">
@@ -146,7 +149,7 @@ const personSchema = {
       <section id="work-experience" class="content-section" aria-labelledby="experience-title">
         <div class="section-heading compact">
           <div>
-            <h2 id="experience-title">💼 Work Experience</h2>
+            <h2 id="experience-title">💼 Experience &amp; Service</h2>
           </div>
         </div>
 

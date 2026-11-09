@@ -626,6 +626,11 @@ h3 {
   gap: 20px;
 }
 
+/* by cgpt: Keep the undated reviewing entry aligned with the timeline's content column. */
+.timeline-item--reviewer > div {
+  grid-column: 2;
+}
+
 .timeline-period {
   margin: 0;
   color: var(--muted);
@@ -637,7 +642,7 @@ h3 {
   margin-bottom: 5px;
 }
 
-/* by cgpt: Align organization names and logos across all Work Experience entries. */
+/* by cgpt: Align organization names and logos across all Experience & Service entries. */
 .timeline-organization {
   display: flex;
   align-items: center;
@@ -1043,6 +1048,10 @@ h3 {
   .timeline-item {
     grid-template-columns: minmax(0, 1fr);
     gap: 7.5px;
+  }
+
+  .timeline-item--reviewer > div {
+    grid-column: 1;
   }
 
   .patent-list-header,
